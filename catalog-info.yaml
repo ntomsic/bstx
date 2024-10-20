@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testdoc
+  annotations:
+    backstage.io/techdocs-ref: dir:./techDocs
+spec:
+  type: service
+  lifecycle: emerging
+  owner: group:abc
